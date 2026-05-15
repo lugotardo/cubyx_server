@@ -1,0 +1,10 @@
+name = "novo_mundo_5276"
+seed = 6158086802944974534
+world_width = 16
+world_depth = 16
+max_height = 64
+terrain_type = "infinite_world"
+game_version = "0.0.1"
+created_at = "2026-05-04T20:27:37.615025+00:00"
+last_played_at = "2026-05-04T20:55:09.207648+00:00"
+play_time_seconds = 0

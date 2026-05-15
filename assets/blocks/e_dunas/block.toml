@@ -1,0 +1,15 @@
+[block]
+name = "dunas"
+type_id = 16
+is_solid = false
+is_transparent = true
+needs_tick_update = false
+tick_priority = 100
+hardness = 0.75
+sound_material = "sand"
+
+[sprite]
+frame_width = 32
+frame_height = 32
+animation_type = "static"
+frame_count = 3

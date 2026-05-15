@@ -1,0 +1,5 @@
+Cubyx Dedicated Server
+Version:    0.0.1
+Git:        254922c
+Build Date: 2026-05-15 14:28 UTC
+Target:     linux/x86_64

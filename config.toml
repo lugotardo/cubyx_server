@@ -1,0 +1,119 @@
+[video]
+resolution_width = 1280
+resolution_height = 720
+fullscreen_mode = "Windowed"
+vsync = true
+fps_limit = "Fps60"
+render_distance = 1
+show_fps = true
+sprite_quality = "High"
+shadows_enabled = true
+camera_mode = "Cave"
+
+[audio]
+master_volume = 100
+music_volume = 5
+sfx_volume = 80
+ambient_volume = 50
+muted = true
+spatial_audio = false
+audio_output_device = "Headset"
+
+[controls]
+mouse_sensitivity = 1.0
+invert_y = true
+zoom_sensitivity = 1.0
+screen_relative_movement = true
+
+[controls.keybindings]
+rotate_left = "KeyQ"
+rotate_right = "KeyE"
+move_up = "KeyW"
+move_down = "KeyS"
+move_left = "KeyA"
+move_right = "KeyD"
+camera_up = "KeyW"
+camera_down = "KeyS"
+camera_left = "KeyA"
+camera_right = "KeyD"
+height_up = "PageUp"
+height_down = "PageDown"
+height_reset = "Home"
+pause = "Escape"
+chat = "KeyT"
+player_list = "Tab"
+jump = "Space"
+block_rotate_cw = "KeyR"
+block_rotate_ccw = "KeyF"
+
+[gameplay]
+language = "pt-BR"
+auto_save_enabled = true
+auto_save_interval_minutes = 10
+show_grid = true
+show_coordinates = true
+difficulty = "Hard"
+interaction_distance = 10
+
+[accessibility]
+font_size = "Medium"
+high_contrast = true
+screen_shake = true
+
+[multiplayer]
+player_name = "lu4nart"
+steam_favorites = []
+
+[[multiplayer.recent_servers]]
+address = "192.168.1.103:25565"
+name = "lu4nart"
+last_connected = ""
+
+[[multiplayer.recent_servers]]
+address = ""
+name = "lu4nartaaa"
+last_connected = ""
+
+[[multiplayer.favorite_servers]]
+address = ""
+name = "lu4nart"
+last_connected = ""
+
+[[multiplayer.favorite_servers]]
+address = "192.168.1.103:25565"
+name = "Playerr"
+last_connected = ""
+
+[debug]
+enabled = true
+tcp_port = 9090
+perf_enabled = true
+
+[physics]
+max_delta_time = 0.5
+dt_cap = 0.05000000074505806
+gravity = 20.0
+max_fall_speed = -30.0
+entity_half_width = 0.30000001192092896
+foot_epsilon = 0.009999999776482582
+entity_height = 1.7999999523162842
+entity_height_ceil = 1.809999942779541
+body_top_height = 1.7000000476837158
+collision_epsilon = 0.019999999552965164
+world_edge_margin = 0.9900000095367432
+
+[physics.north]
+offset_x = 0.0
+offset_y = 0.0
+
+[physics.east]
+offset_x = 0.0
+offset_y = 0.0
+
+[physics.south]
+offset_x = 0.0
+offset_y = 0.0
+
+[physics.west]
+offset_x = 0.0
+offset_y = 0.0

@@ -1,0 +1,11 @@
+[[mods]]
+name = "tick_logger"
+enabled = false
+
+[[mods]]
+name = "more_blocks"
+enabled = false
+
+[[mods]]
+name = "auto_grass"
+enabled = false

@@ -1,0 +1,21 @@
+[block]
+name = "obsidian"
+# type_id is omitted — will be auto-assigned by block_pack (1000+)
+is_solid = true
+is_transparent = false
+needs_tick_update = false
+tick_priority = 100
+hardness = 3.0
+sound_material = "stone"
+
+[sprite]
+frame_width = 32
+frame_height = 32
+animation_type = "static"
+
+[sprite.actions.breaking]
+frame_width = 32
+frame_height = 32
+frame_count = 5
+fps = 6.0
+play_mode = "once"

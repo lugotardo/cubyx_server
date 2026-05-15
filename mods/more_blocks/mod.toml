@@ -1,0 +1,6 @@
+[mod]
+name = "more_blocks"
+version = "1.0.0"
+author = "Cubyx Team"
+description = "Exemplo de mod que adiciona blocos customizados ao jogo"
+entry = "main.rhai"

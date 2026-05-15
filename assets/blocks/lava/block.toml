@@ -1,0 +1,22 @@
+[block]
+name = "lava"
+type_id = 6
+is_solid = false
+is_transparent = false
+needs_tick_update = true
+tick_priority = 1
+hardness = -1.0
+sound_material = "liquid"
+
+# Lava é mais densa que água: espalha mais devagar (tick_divisor maior)
+# e percorre uma distância menor da fonte (max_spread menor).
+[fluid]
+tick_divisor = 10
+max_spread = 2
+
+[sprite]
+frame_width = 32
+frame_height = 32
+animation_type = "animated"
+frame_count = 4
+fps = 3.0

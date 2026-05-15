@@ -1,0 +1,21 @@
+[block]
+name = "dirt"
+type_id = 2
+is_solid = true
+is_transparent = false
+needs_tick_update = true
+tick_priority = 1
+hardness = 0.75
+sound_material = "dirt"
+
+[sprite]
+frame_width = 32
+frame_height = 32
+animation_type = "static"
+
+[sprite.actions.breaking]
+frame_width = 32
+frame_height = 32
+frame_count = 5
+fps = 10.0
+play_mode = "once"

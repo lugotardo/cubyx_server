@@ -1,0 +1,9 @@
+[mod]
+name = "tick_logger"
+version = "0.1.0"
+author = "Luan Costa"
+description = "Loga informacoes a cada 50 ticks para debug"
+entry = "main.rhai"
+
+[config]
+log_interval = 50

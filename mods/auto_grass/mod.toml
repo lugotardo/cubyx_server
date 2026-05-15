@@ -1,0 +1,9 @@
+[mod]
+name = "auto_grass"
+version = "0.1.0"
+author = "Luan Costa"
+description = "Converte dirt exposto em grass automaticamente a cada N ticks"
+entry = "main.rhai"
+
+[config]
+grow_interval = 100

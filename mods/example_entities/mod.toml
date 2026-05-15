@@ -1,0 +1,18 @@
+[mod]
+name = "example_entities"
+version = "0.1.0"
+author = "Cubyx"
+description = "Exemplo de mod com entidades controladas por script (slime, merchant)"
+entry = "main.rhai"
+
+[permissions]
+world_read = true
+world_write = true
+custom_events = true
+entity_spawn = true
+ai_control = true
+
+[config]
+slime_speed = 1.0
+slime_aggro_range = 8.0
+merchant_greeting = "Bem-vindo!"

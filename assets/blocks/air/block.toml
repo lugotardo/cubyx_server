@@ -1,0 +1,9 @@
+[block]
+name = "air"
+type_id = 0
+is_solid = false
+is_transparent = true
+needs_tick_update = false
+tick_priority = 100
+hardness = -1.0
+sound_material = "none"

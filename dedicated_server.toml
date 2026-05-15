@@ -1,0 +1,7 @@
+[server]
+tcp_port = 25565
+tick_hz = 20.0
+autosave_interval_secs = 300
+
+[world]
+mode = "latest-save"
